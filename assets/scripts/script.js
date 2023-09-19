@@ -29,10 +29,29 @@ Paradigmas de programacion (formas de programar)
 // Creando mi primera clase
 
 class persona{
-    // Propiedades o atributos de mi clase de forma general
+    //1 . Propiedades o atributos de mi clase de forma general
     nombre = "";
     apellido = "";
     edad = 0;
     email = "";
     telefono = "";
-}
+
+    //2. Métodos o comportamientos (funciones)
+    //Para definir los métodos del objeto ya no utilizo la plabra 'function'
+
+    hablar(){
+        console.log("Hola estoy hablando...");
+    }
+
+    dormir(){
+        console.log("ZzZzZzZzZzZ");
+    }
+
+    mostrariInfo(){
+        console.log("Nombre: ");
+        console.log("Apellido: ");
+        console.log("Edad: ");
+        console.log("Email: ");
+        console.log("Telefono: ");
+    }
+}// Cierre de la clase persona
